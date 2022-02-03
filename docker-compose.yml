@@ -14,7 +14,7 @@ services:
     networks:
     - back
   app:
-    image: piwik:fpm
+    image: matomo:fpm
     links:
       - db
     volumes:
